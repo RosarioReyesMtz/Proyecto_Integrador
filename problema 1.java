@@ -2,20 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package proyectointegraodr;
+package javaapplication1;
+
 import java.util.Scanner;
+
 /**
  *
- * @author Asael
+ * @author otero
  */
-public class ProyectoIntegraodr {
+public class JavaApplication1 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
-
         Scanner o = new Scanner(System.in);
 
         // Obtener las coordenadas de los puntos A y B
@@ -40,9 +40,8 @@ public class ProyectoIntegraodr {
         double anguloGrados = Math.toDegrees(anguloRad);
 
         // Mostrar la ecuación de la recta y el ángulo interno
-        System.out.println("Ecuación de la recta: " + A + "x + " + B + "y + " + C + " = 0");
+        System.out.println("Ecuación de la recta: Y =" + A + "x " + C);
         System.out.println("Ángulo interno α: " + anguloGrados + " grados");
     }
+    
 }
-
-  
